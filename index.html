@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jordan — Editor</title>
+  <meta name="description" content="Jordan edits Minecraft trailers, corporate Shorts, long-form YouTube, product films, ads, and story work. Watch the work.">
+  <meta name="theme-color" content="#0e0e0e">
+  <meta name="referrer" content="origin-when-cross-origin">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800&family=Red+Hat+Mono:wght@500;600&family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--
+    THESIS: A hiring manager sits at a Steenbeck, not a showreel grid — hanging workprints, one cut locked in the gate. Refuses the dark thumbnail-gallery portfolio.
+    OWN-WORLD: Unlit room, cold cobalt lightbox, frosted acrylic, sprocketed acetate, grease-pencil crimson, condensed industrial display, registration pins.
+    STORY: They watch real cuts, see the lanes, play the piece that matches the job, and write nkemkelsey@gmail.com.
+    FIRST VIEWPORT: Dark room, glowing table filling the fold. Name on the plate. Hanging strips at left. Gate at right with a Minecraft cut already seated. Primary action is the player.
+    FORM: Steenbeck Light Table, grounded candidate 3 of 7, seed 53faa260.
+    FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+  -->
+  <a class="skip" href="#gate">Skip to the seated cut</a>
+
+  <div class="room">
+    <header class="plate">
+      <div class="plate-row">
+        <h1 class="mark">
+          <img class="oc oc-mark" src="assets/jordan-mark.png" width="40" height="40" alt="">
+          <a href="#bench">Jordan</a>
+        </h1>
+        <nav class="lanes" aria-label="Lanes">
+          <a href="#lane-minecraft">Minecraft</a>
+          <a href="#lane-shorts">Shorts</a>
+          <a href="#lane-longform">Long form</a>
+          <a href="#lane-commercial">Commercial</a>
+          <a href="#lane-ads">Ads</a>
+          <a href="#lane-story">Story</a>
+        </nav>
+        <a class="contact contact-role" href="mailto:nkemkelsey@gmail.com">Video editor</a>
+      </div>
+    </header>
+
+    <main id="bench">
+      <section class="table" aria-label="Cutting bench">
+        <p class="lede">Editor for hire. Minecraft trailers, corporate Shorts, long-form YouTube, product films, ads, and story work — including voiceover.</p>
+
+        <div class="bench-grid">
+          <div class="hang">
+            <section class="film" id="lane-minecraft" data-lane="minecraft">
+              <header class="film-head">
+                <h2>Minecraft</h2>
+                <p>Marketplace trailers · Vatonage</p>
+              </header>
+              <div class="frames" data-lane-frames="minecraft" role="list"></div>
+            </section>
+
+            <section class="film" id="lane-shorts" data-lane="shorts">
+              <header class="film-head">
+                <h2>Shorts</h2>
+                <p>Entire Shorts side · M2i Global</p>
+              </header>
+              <div class="frames" data-lane-frames="shorts" role="list"></div>
+            </section>
+
+            <section class="film" id="lane-longform" data-lane="longform">
+              <header class="film-head">
+                <h2>Long form</h2>
+                <p>Full channel + a voiced piece</p>
+              </header>
+              <div class="frames" data-lane-frames="longform" role="list"></div>
+            </section>
+
+            <section class="film" id="lane-commercial" data-lane="commercial">
+              <header class="film-head">
+                <h2>Commercial</h2>
+                <p>Product launch · motion · animated</p>
+              </header>
+              <div class="frames" data-lane-frames="commercial" role="list"></div>
+            </section>
+
+            <section class="film" id="lane-ads" data-lane="ads">
+              <header class="film-head">
+                <h2>Ads</h2>
+                <p>Dramatic · sport · UGC</p>
+              </header>
+              <div class="frames" data-lane-frames="ads" role="list"></div>
+            </section>
+
+            <section class="film" id="lane-story" data-lane="story">
+              <header class="film-head">
+                <h2>Story</h2>
+                <p>Liminal music video · children’s</p>
+              </header>
+              <div class="frames" data-lane-frames="story" role="list"></div>
+            </section>
+          </div>
+
+          <section class="gate" id="gate" data-aspect="landscape" aria-label="Viewer gate">
+            <div class="pins" aria-hidden="true"><span></span><span></span></div>
+            <div class="gate-well">
+              <iframe
+                id="player"
+                title="Create FREE Add-On (MCPE) Bedrock Minecraft"
+                src="https://www.youtube.com/embed/zwfuAnr-AVU?rel=0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <video
+                id="tape"
+                hidden
+                controls
+                playsinline
+                preload="metadata"
+                poster="assets/thumbs/zwfuAnr-AVU.jpg"
+              ></video>
+            </div>
+            <div class="caption">
+              <h2 id="caption-title">Create FREE Add-On (MCPE) Bedrock Minecraft</h2>
+              <p class="caption-meta" id="caption-meta">Minecraft · Edit · Vatonage</p>
+              <p class="caption-open"><a id="watch-out" href="https://youtu.be/zwfuAnr-AVU">Watch on YouTube</a></p>
+            </div>
+            <p class="sr-live" id="live" aria-live="polite"></p>
+          </section>
+        </div>
+
+        <section class="kit" aria-label="Tools">
+          <h2>On the bench</h2>
+          <ul>
+            <li>Premiere Pro</li>
+            <li>CapCut</li>
+            <li>Seedance 2</li>
+            <li>Nano Banana</li>
+            <li>GPT Image 2</li>
+            <li>Hailuo 3</li>
+            <li>Tripo 3D</li>
+            <li>SAM</li>
+            <li>ElevenLabs</li>
+          </ul>
+        </section>
+      </section>
+    </main>
+
+    <footer class="close">
+      <img class="oc oc-close" src="assets/jordan-close.png" width="160" height="284" alt="Jordan">
+      <div class="close-copy">
+        <p>Need an editor for trailers, Shorts, long-form, product films, animations, or ads? I'm your guy! Send the brief.</p>
+        <p>
+          <a class="contact contact-lg" href="mailto:nkemkelsey@gmail.com">nkemkelsey@gmail.com</a>
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <noscript>
+    <p class="noscript">JavaScript is off. The first cut is in the gate; every other piece is a YouTube link in the strips once the page is rebuilt, or open the README list.</p>
+  </noscript>
+  <script src="app.js"></script>
+</body>
+</html>
