@@ -74,6 +74,38 @@ const WORK = {
       credit: "Edit · full Shorts side of the channel",
       aspect: "portrait",
     },
+    {
+      id: "j-UJ3i5hYLo",
+      kind: "youtube",
+      title: "World Wild Animals Addon Minecraft PE (MCPE) Addon Mod",
+      channel: "Vatonage",
+      credit: "Edit · full Shorts side of the channel",
+      aspect: "portrait",
+    },
+    {
+      id: "uQmZtCekq5s",
+      kind: "youtube",
+      title: "Quarry Minecraft PE Bedrock Edition (MCPE) Factory Machinery Addon Mod",
+      channel: "Vatonage",
+      credit: "Edit · full Shorts side of the channel",
+      aspect: "portrait",
+    },
+    {
+      id: "jRgt2WWJUwA",
+      kind: "youtube",
+      title: "Tinkers Construct Minecraft PE Bedrock Edition Addon (MCPE)",
+      channel: "Vatonage",
+      credit: "Edit · full Shorts side of the channel",
+      aspect: "portrait",
+    },
+    {
+      id: "1CrJr0LWR0BsCLtB5p6MbhCHJxldmvJZ9",
+      kind: "drive",
+      title: "Social Commentary",
+      channel: "",
+      credit: "Edit",
+      aspect: "portrait",
+    },
   ],
   longform: [
     {
@@ -143,14 +175,6 @@ const WORK = {
       channel: "",
       credit: "Edit · sport short",
       aspect: "landscape",
-    },
-    {
-      id: "1CrJr0LWR0BsCLtB5p6MbhCHJxldmvJZ9",
-      kind: "drive",
-      title: "Social Commentary Ad",
-      channel: "",
-      credit: "Edit",
-      aspect: "portrait",
     },
     {
       id: "15eTSIThJ5j1nKAZ7fk_z7EcrFGZDdjIA",
